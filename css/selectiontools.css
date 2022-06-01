@@ -1,0 +1,154 @@
+ /* Nahim SALAMI
+ Mail: nahim.salami@outlook.fr 
+ */
+
+ .awl-select-container{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.awl-select-tools{
+    width: 200px;
+    height: 214px;
+    position: absolute;
+    box-sizing: content-box;
+    border: 3px solid #009fdc;
+}
+
+.awl-select-tools-arrow{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 28px;
+    border: 1px solid #009fdc;
+    color: #fff;
+    background-color: #009fdc;
+    line-height: 34px;
+    font-size: 12px;
+}
+.awl-hr{
+    position: absolute;
+    border: 2px solid #009fdc;
+    height: 20px;
+    top: 22%;
+    right: -15%;
+    transform: rotate(90deg);
+}
+
+.hr-awl{
+    position: absolute;
+    border: 2px solid #009fdc;
+    height: 20px;
+    top: 91%;
+    transform: rotate(1deg);
+}
+
+.awl-select-tools-arrow i{
+    padding: 8px;
+}
+
+.awl-btn-select-edition{
+    float: left;
+    width: 44px;
+    height: 37px;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    margin: 5px;
+    line-height: 40.04px;
+    text-align: center;
+    background-color: #009fdc;
+    color: #fff;
+    opacity: 1;
+    transition: opacity .2s;
+}
+
+.awl-select-tools-editon-btn{
+    padding: 30px 14px 0;
+}
+
+.awl-btn-right{
+    background: #1b2d4a;
+}
+
+.awl-tools1{
+    left: 42%;
+    top: -5%;
+}
+
+.awl-tools2{
+    left: 94%;
+    top: 44%;
+}
+
+.awl-tools3{
+    left: -43px;;
+    top: 73%;
+    cursor: col-resize;
+}
+
+.awl-tools4{
+    top: 95%;
+    left: 42%;
+}
+
+.awl-tools5{
+    top: 44%;
+    left: -21px;
+}
+
+.awl-tools6{
+    top: 95%;
+    left: -21px;
+}
+
+.awl-tools7{
+    top: 95%;
+    left: 93%;
+    transform: rotate(-90deg);  
+}
+
+.awl-tools8{
+    right: -18px;
+    top: -21px;
+}
+
+.awl-tools9{
+    transform: rotate(-89deg);
+    left: -21px;
+    top: -5%;
+}
+
+.awl-tools10{
+    left: 42%;
+    top: -53px;
+}
+
+.slick-list.draggable{
+    overflow: scroll;
+}
+
+.awl-ajust-content{
+height: 100%;
+overflow: scroll;
+}
+
+.awl-select-tools-editon-btn{
+position: absolute;
+left: 0;
+top: 0;
+width: 280px;
+}
+
+.aw-select-tools-center{
+/* display: flex; */
+margin: auto;
+text-align: center;
+align-items: center;
+}
